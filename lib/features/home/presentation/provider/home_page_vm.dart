@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:provider_sample2/domain/usecases/popular_movies_use_case.dart';
 import '../../data/models/movies.dart';
+import '../../domain/usecases/popular_movies_use_case.dart';
 
 class HomePageViewModel extends ChangeNotifier {
   final PopularMoviesUseCase popularMoviesUseCase;

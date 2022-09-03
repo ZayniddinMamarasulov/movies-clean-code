@@ -1,7 +1,8 @@
-import 'package:provider_sample2/data/datasources/remote/movies_datasource.dart';
-import 'package:provider_sample2/data/models/movies.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
+
+import '../../models/movies.dart';
+import 'movies_datasource.dart';
 
 class MoviesDataSourceImpl extends MoviesDataSource {
   @override
